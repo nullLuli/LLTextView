@@ -13,6 +13,7 @@
 		3C86E78B20DCA34500442981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C86E78A20DCA34500442981 /* Assets.xcassets */; };
 		3C86E78E20DCA34500442981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C86E78C20DCA34500442981 /* LaunchScreen.storyboard */; };
 		3C86E79920DCA34500442981 /* LLTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C86E79820DCA34500442981 /* LLTextViewTests.swift */; };
+		3C86E7A420DCE27600442981 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C86E7A320DCE27600442981 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3C86E79420DCA34500442981 /* LLTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C86E79820DCA34500442981 /* LLTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLTextViewTests.swift; sourceTree = "<group>"; };
 		3C86E79A20DCA34500442981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C86E7A320DCE27600442981 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				3C86E78A20DCA34500442981 /* Assets.xcassets */,
 				3C86E78C20DCA34500442981 /* LaunchScreen.storyboard */,
 				3C86E78F20DCA34500442981 /* Info.plist */,
+				3C86E7A320DCE27600442981 /* TextView.swift */,
 			);
 			path = LLTextView;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C86E7A420DCE27600442981 /* TextView.swift in Sources */,
 				3C86E78620DCA34100442981 /* ViewController.swift in Sources */,
 				3C86E78420DCA34100442981 /* AppDelegate.swift in Sources */,
 			);
@@ -361,11 +365,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W567PZ7SQ2;
 				INFOPLIST_FILE = LLTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.luli.www.LLTextView;
+				PRODUCT_BUNDLE_IDENTIFIER = "ll-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -379,11 +384,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W567PZ7SQ2;
 				INFOPLIST_FILE = LLTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.luli.www.LLTextView;
+				PRODUCT_BUNDLE_IDENTIFIER = "ll-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
